@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body,html{
+	height: 100%;
+	margin: 0;
+}
+.fullimg{
+	background-image: url("intro.png");
+	height: 85%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter:grayscale(60%);
+}
+
+.conta{
+  line-height: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  -moz-opacity:1.0;
+  opacity:1.0;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 2px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { 
+	display: inline; 
+}
+
+#menu ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+.logo{
+	float: right;
+	padding:0px;
+    margin:10px;
+}
