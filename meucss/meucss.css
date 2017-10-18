@@ -8,11 +8,11 @@ body,html{
 }
 .fullimg{
 	background-image: url("intro.png");
-	height: 85%;
+	height: 79.8%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	filter:grayscale(70%);
+	filter:grayscale(60%);
 }
 
 .conta{
